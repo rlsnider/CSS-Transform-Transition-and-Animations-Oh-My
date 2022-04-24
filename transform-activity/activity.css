@@ -1,3 +1,8 @@
-main {
-
+main,  .info{
+    transform:rotate(-5deg)
+}
+.info{
+    font-family:Arial Black;
+    font-weight:900%;
+    
 }
