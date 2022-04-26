@@ -4,6 +4,7 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
   position:relative;
+  animation-timing-function:linear;
 
 
 }
@@ -22,6 +23,7 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
   position:relative;
+  animation-timing-function:linear;
 }
 
 nav {
@@ -38,7 +40,7 @@ nav {
     transform:rotate(0deg);
   }
   to {
-    transform:rotate(45deg); 
+    transform:rotate(46deg); 
     top: 35px;
     }
 
@@ -54,6 +56,6 @@ nav {
     transform:rotate(0deg);
   }
   to {
-    transform:rotate(-45deg); bottom: 35px;
+    transform:rotate(-46deg); bottom: 35px;
   }
 }
